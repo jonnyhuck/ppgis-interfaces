@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PGIS Usability Test</title>
+
+    <!-- style imports -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" crossorigin=""/>
+    <link rel="stylesheet" href="./css/map.css" />
+
+    <!-- script imports -->
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script>
+    <script src='./js/L.GridLayer.MaskCanvas.js'></script>
+    <script src='./js/QuadTree.js'></script>
+    <script src='./js/proj4js.js'></script>
+    <script src='./js/barra50m.js'></script>
+    <script src='./js/viewshed.js'></script>
+    <script src='./js/viewshed-map.js'></script>
+  </head>
+
+  <body onload="initMap()">
+
+    <!-- the map -->
+    <div id='map'></div>
+
+  </body>
+</html>
